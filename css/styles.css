@@ -1,9 +1,36 @@
+body {
+  text-align: center;
+  background-image: url("hardwood.jpg");
+  background-repeat: repeat;
+}
+
+
 .jumbotron {
-  background-image: url(img/veg.jpg);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(211, 238, 211);
 }
 
 .large {
   font-size: 100px;
 }
 
+.card {
+  margin: 20px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+
+
+.card-body1 {
+  font-style: italic;
+  padding: 10px;
+}
+
+.card-body2 {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+}
