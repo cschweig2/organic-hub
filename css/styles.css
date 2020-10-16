@@ -1,9 +1,6 @@
 body {
-  text-align: center;
   background-image: url("../img/seedling.jpg");
-  background-repeat: repeat;
 }
-
 
 .jumbotron {
   background-color: rgb(211, 238, 211);
@@ -20,12 +17,16 @@ body {
 
 .card {
   margin: 20px;
+  text-align: center;
   border: none;
 }
 
 img.header-line {
   width: 125px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .button {
@@ -44,8 +45,12 @@ img.header-line {
 }
 
 .card-body2 {
-  text-align: center;
+  text-align: left;
   padding: 10px;
+}
+
+.list-style {
+  text-align: left;
 }
 
 p {
@@ -62,6 +67,3 @@ footer {
   text-align: center;
 }
 
-ol {
-  text-align: left;
-}
