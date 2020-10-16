@@ -10,7 +10,7 @@ _This website provides valuable information on how and why to choose organic pro
 
 ## Setup/Installation Requirements
 
-1. _Open the webpage_
+1. _Open the webpage at https://cschweig2.github.io/organic-hub_
 2. _Browse the webpage for information and resources_
 
 ## Known Bugs
