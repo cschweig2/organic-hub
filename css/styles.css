@@ -1,14 +1,15 @@
 body {
   background-image: url("../img/seedling.jpg");
+  background-repeat: repeat;
+  background-position: bottom;
 }
 
 .jumbotron {
   background-color: rgb(211, 238, 211);
-  opacity: 70%;
 }
 
 .btn-link {
-  color: gray;
+  color: rgb(12, 105, 0)
 }
 
 .large {
@@ -17,6 +18,7 @@ body {
 
 .card {
   margin: 20px;
+  margin-top: 20px;
   text-align: center;
   border: none;
 }
@@ -26,6 +28,12 @@ img.header-line {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.center {
+  margin: auto;
+  width: 50%;
 
 }
 
@@ -46,7 +54,12 @@ img.header-line {
 
 .card-body2 {
   text-align: left;
-  padding: 10px;
+  padding: 15px;
+}
+
+.card-body3 {
+  text-align: center;
+  padding: 15px;
 }
 
 .list-style {
@@ -67,3 +80,14 @@ footer {
   text-align: center;
 }
 
+h2 {
+  margin-top: 15px;
+}
+
+.link {
+  color: rgb(12, 105, 0)
+}
+
+a:hover {
+  color: rgb(109, 204, 109);
+}
