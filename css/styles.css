@@ -1,8 +1,6 @@
 body {
- background-color: rgb(255, 250, 210);
- background-image: url("../img/19.jpg");
+ background-image: url("../img/wood2.jpg");
  background-position: bottom;
-
 }
 
 img.shadow-center {
@@ -24,7 +22,7 @@ img.shadow-center {
 
 .card {
   margin: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
   border: none;
 }
