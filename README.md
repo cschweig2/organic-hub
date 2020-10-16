@@ -6,7 +6,7 @@
 
 ## Description
 
-_This website provides valuable information on how and why to choose organic produce and pre-packaged products. There are several facts as to why to choose organic, along with many resources to other websites that provide additional information in the form of research, blog, videos, and more._
+_This website provides valuable information on how and why to choose organic produce and pre-packaged products. There are 3 broad reasons to choose organic, along with many resources to other websites that provide additional information in the form of research, blogs, videos, and more._
 
 ## Setup/Installation Requirements
 

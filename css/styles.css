@@ -3,13 +3,17 @@ body {
  background-position: bottom;
 }
 
-img.shadow-center {
-  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
-  margin: auto;
+p {
+  text-align: center;
 }
 
-.green-text {
-  color: rgb(0, 87, 0);
+p.subtext {
+  font-size: 14px;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 15px;
 }
 
 .jumbotron {
@@ -18,6 +22,28 @@ img.shadow-center {
 
 .large {
   font-size: 100px;
+}
+
+.green-text {
+  color: rgb(0, 87, 0);
+}
+
+img.resize {
+  display: block;
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+}
+
+img.shadow-center {
+  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+shadow {
+  border-color: white;
+  border-radius: 2px;
+  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card {
@@ -71,24 +97,6 @@ img.header-line {
   text-align: left;
 }
 
-p {
-  text-align: center;
-}
-
-p.subtext {
-  font-size: 14px;
-  text-align: left;
-}
-
-footer {
-  color: white;
-  text-align: center;
-}
-
-h2 {
-  margin-top: 15px;
-}
-
 .link {
   color: rgb(12, 105, 0)
 }
@@ -97,15 +105,7 @@ a:hover {
   color: rgb(109, 204, 109);
 }
 
-img.resize {
-  display: block;
-  width: 250px;
-  height: 150px;
-  margin: 10px;
-}
-
-shadow {
-  border-color: white;
-  border-radius: 2px;
-  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+footer {
+  color: white;
+  text-align: center;
 }
