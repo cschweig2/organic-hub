@@ -1,11 +1,17 @@
 body {
   text-align: center;
-  background-image: url("hardwood.jpg");
+  background-image: url("../img/seedling.jpg");
   background-repeat: repeat;
 }
 
+
 .jumbotron {
   background-color: rgb(211, 238, 211);
+  opacity: 70%;
+}
+
+.btn-link {
+  color: gray;
 }
 
 .large {
@@ -30,7 +36,6 @@ body {
 }
 
 .card-body1 {
-  font-style: italic;
   padding: 10px;
 }
 
@@ -42,3 +47,4 @@ body {
 p {
   text-align: center;
 }
+
