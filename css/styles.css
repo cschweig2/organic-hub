@@ -1,15 +1,21 @@
 body {
-  background-image: url("../img/seedling.jpg");
-  background-repeat: repeat;
-  background-position: bottom;
+ background-color: rgb(255, 250, 210);
+ background-image: url("../img/19.jpg");
+ background-position: bottom;
+
+}
+
+img.shadow-center {
+  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+.green-text {
+  color: rgb(0, 87, 0);
 }
 
 .jumbotron {
   background-color: rgb(211, 238, 211);
-}
-
-.btn-link {
-  color: rgb(12, 105, 0)
 }
 
 .large {
@@ -28,13 +34,11 @@ img.header-line {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .center {
   margin: auto;
   width: 50%;
-
 }
 
 .button {
@@ -50,16 +54,19 @@ img.header-line {
 
 .card-body1 {
   padding: 15px;
+  box-sizing: border-box;
 }
 
 .card-body2 {
   text-align: left;
-  padding: 15px;
+  box-sizing: border-box;
+  
 }
 
 .card-body3 {
   text-align: center;
   padding: 15px;
+  box-sizing: border-box;
 }
 
 .list-style {
@@ -90,4 +97,17 @@ h2 {
 
 a:hover {
   color: rgb(109, 204, 109);
+}
+
+img.resize {
+  display: block;
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+}
+
+shadow {
+  border-color: white;
+  border-radius: 2px;
+  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 60px 0 rgba(0, 0, 0, 0.19);
 }
